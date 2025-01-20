@@ -9,3 +9,5 @@ Main.F90: Fortran90 code to find the QNMs by either method (WKB is 2nd order acc
 ZerilliSolver.F90: RK45 solver (own implementation) for said equation.
 
 Configs.nml: Parameter configuration for QNMs and the solver.
+
+QNM.pdf: Brief comparison of the results with known literature.
