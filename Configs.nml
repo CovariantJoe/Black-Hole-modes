@@ -1,0 +1,29 @@
+&LeaverMethod
+!     Config for Leaver's Method
+L =  3! Angular parameter, no less than 2.
+!Interval = [-1,1] ! Square domain in complex plane to search QNM.
+Resolution = 1e-3 ! Grid spacing for the domain (smaller = more roots,slow).
+NRoots = 4 ! Max number of QNM to find in the Interval.
+filename = "QuasiNormalModes.bin" ! File to save QNM.
+/
+
+&WKB
+!     Config for WKB Method
+L = 4 ! Angular parameter.
+M = 1 ! Mass
+n = 3 ! Max Overtone (how many QNM - 1).
+filename = "WKBQuasiNormalModes.bin" ! File to save QNM.
+/
+
+&ODE
+!     Config for Zerilli equation solver
+L = 2 ! Angular parameter.
+M = 1.0 ! Mass
+x0 = 2.0 ! Starting point (tortoise coords)
+xf = 15.0 ! Ending point (tortoise coords)
+dx = 0.00001 ! Step
+u_0 = 1.0 ! Initial condition
+z_0 = 1.0 ! Initial derivative
+w =  (0.770043254,-0.588090003) ! A QNM, determined by Main.f90
+filename = "OutputZ.bin" ! Output file
+/

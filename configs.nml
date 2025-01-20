@@ -1,0 +1,10 @@
+&vars
+!     Config for the solver
+gamma = 2 ! Adiabatic coefficient cp/cv.
+rho_0 = 0.1 ! Density at star's center (r = 0).
+c = 1 ! Constant such that pressure(r = 0) = c*rho_0^gamma
+gtt_0 = 0.25 ! Initial condition (r = 0) to g_tt metric component
+r_max = 5 ! Max. distance to solve
+dr = 0.0005 ! Step
+filename = "File.bin" ! File to save the output, created or replaced.
+/
