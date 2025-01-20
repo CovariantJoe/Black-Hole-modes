@@ -5,7 +5,7 @@
             "name": "gdb",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/ExecTOV",
+            "program": "${workspaceFolder}/Exec",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
