@@ -10,4 +10,4 @@ ZerilliSolver.F90: RK45 solver (own implementation) for said equation.
 
 Configs.nml: Parameter configuration for QNMs and the solver.
 
-QNM.pdf: Brief comparison of the results with known literature.
+QNM.pdf: Brief article-like comparison of the results with known literature.
