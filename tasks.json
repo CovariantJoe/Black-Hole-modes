@@ -10,7 +10,7 @@
             "${workspaceFolder}/Main.f90",
                 "~/Desktop/Main/Fortran/Zerilli/ZerilliSolver.o",
                 "-o",
-                "${workspaceFolder}/ExecQNM"
+                "${workspaceFolder}/Exec"
         ],
         "group":{
             "kind":"build",
